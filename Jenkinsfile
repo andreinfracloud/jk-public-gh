@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonning Git Repository') {
             steps {
-                git branch: 'master', url: 'https://github.com/YOUR-GITHUB-USERNAME/jk-public-gh.git'
+                git branch: 'master', url: 'https://github.com/andreinfracloud/jk-public-gh.git'
             }
         }
         stage('Building Image') {
